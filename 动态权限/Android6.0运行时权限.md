@@ -104,9 +104,9 @@
 
   ## 5. 封装
 
-  ​    目前，Github上有很多封装的比较好，比较成熟的权限处理框架，使用起来很方便很便捷。我研究了一下几个比较主流的，发现基本上的实现思路都是使用一个单独的没有layout的Activity来申请权限，当需要申请某个权限的时候就跳到那个Activity，让那个Activity来处理权限，通过回调的方法来通知业务层授权的结果。这样做的好处就是处理逻辑简单，实用性强。下面推荐一个比较好用的：
+​      目前，Github上有很多封装的比较好，比较成熟的权限处理框架，使用起来很方便很便捷。我研究了一下几个比较主流的，发现基本上的实现思路都是使用一个单独的没有layout的Activity来申请权限，当需要申请某个权限的时候就跳到那个Activity，让那个Activity来处理权限，通过回调的方法来通知业务层授权的结果。这样做的好处就是处理逻辑简单，实用性强。下面推荐一个比较好用的：
 
-[PermissionGrantor]: https://github.com/dfqin/PermissionGrantor
+   [PermissionGrantor](https://github.com/dfqin/PermissionGrantor)
 
   ## 6. 建议
 
@@ -114,5 +114,6 @@
 
   ## 7. 参考
 
-[http://www.jianshu.com/p/cdcbd3038902]: http://www.jianshu.com/p/cdcbd3038902
-[http://www.jianshu.com/p/dbe4d37731e6]: http://www.jianshu.com/p/dbe4d37731e6
+* [http://www.jianshu.com/p/dbe4d37731e6](http://www.jianshu.com/p/dbe4d37731e6)
+* [http://www.jianshu.com/p/cdcbd3038902](http://www.jianshu.com/p/cdcbd3038902)
+
